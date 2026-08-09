@@ -1,5 +1,6 @@
 import type { Project } from "@/data/projects";
 import { EndlessJourneyCaseStudy } from "./EndlessJourneyCaseStudy";
+import { FinexaCaseStudy } from "./FinexaCaseStudy";
 import { FTSPCaseStudy } from "./FTSPCaseStudy";
 import { HealthSyncCaseStudy } from "./HealthSyncCaseStudy";
 import { PersustainCaseStudy } from "./PersustainCaseStudy";
@@ -33,6 +34,10 @@ export function CaseStudyTemplate({ project }: CaseStudyTemplateProps) {
 
   if (project.slug === "financial-transition-support-program-ftsp") {
     return <FTSPCaseStudy project={project} />;
+  }
+
+  if (project.slug === "finexa") {
+    return <FinexaCaseStudy project={project} />;
   }
 
   return (

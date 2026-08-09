@@ -28,12 +28,6 @@ export function Footer() {
           </Link>
           <Link
             className="focus-ring rounded-sm hover:text-ink"
-            href="/research"
-          >
-            Research
-          </Link>
-          <Link
-            className="focus-ring rounded-sm hover:text-ink"
             href="/contact"
           >
             Contact
