@@ -25,70 +25,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "persustain-ai",
-    title: "Persustain",
-    tags: ["Explainable AI", "Backend", "Sustainability", "Firebase", "TypeScript"],
-    shortDescription:
-      "Backend MVP: Firebase pipelines, deterministic emissions logic, LLM summaries, and hardened user-scoped aggregation.",
-    summary:
-      "Built and integrated the MVP’s backend, Climatiq + OpenAI, Cloud Functions/Firestore, activity normalization, net vs avoided emissions semantics, dashboards, contributions, and aggregation fixes.",
-    overview:
-      "Deterministic totals with AI only for narratives; tightened Firestore and cache semantics for trustworthy rollups.",
-    myRole:
-      "AI/backend engineer: Cloud Functions, Firestore schemas and queries, Climatiq/OpenAI integrations, normalization, explanations, aggregation, and collaborating with frontend.",
-    researchProcess:
-      "Iterated on deterministic vs generative boundaries, emission semantics for sustainable behaviors, and user-scoped caching under multi-user loads.",
-    featured: true,
-    layout: "standard",
-    coverImage: "/projects/persustain-cover.png",
-    sections: {
-      problem:
-        "Sustainability UIs oscillate between gamified simplicity and inaccessible density; users distrust opaque metrics and cannot relate actions to system-level outcomes.",
-      process:
-        "Defined a deterministic core for all numeric carbon outputs; delegated natural-language rationales and caveats to generative models only after validation.",
-      keyInsights:
-        "Net-impact semantics needed actual, avoided, and net CO₂ so virtuous behaviors read as reductions; multi-user aggregation required strict cache/query scoping.",
-      designDevelopment:
-        "Second-gen Cloud Functions (normalizeAndExplainActivity, baseline and pattern insights, evidence summaries, goals/recommendations) plus tightened Firestore query and refresh semantics.",
-      finalOutcome:
-        "MVP with baselines, activity interpretation, dashboard narratives, contribution aggregation, scaled pipelines and honesty-first labeling of simulated surfaces.",
-      reflection:
-        "Backend schemas and aggregation semantics are inseparable from trust and emotional framing of sustainable behavior.",
-    },
-  },
-  {
-    slug: "the-endless-journey",
-    title: "The Endless Journey",
-    tags: ["Unity", "Narrative Design", "Environmental Storytelling", "HDRP"],
-    shortDescription:
-      "Narrative survival game: migration, emotional health systems, and atmospheric world-building in Unity HDRP.",
-    summary:
-      "A PC narrative survival game where a young refugee awakens in a symbolic world, exploration, emotional survival mechanics, and environmental storytelling replace exposition-heavy dialogue.",
-    overview:
-      "Unity 6.2 / HDRP desktop game (Sep–Dec 2025): three-act structure, emotional health and calorie systems, NPC recovery, and fog-forward environments translating migration research into play.",
-    myRole:
-      "Solo designer & developer: narrative structure, environment and systems design, Unity implementation (Cinemachine, Timeline, UI Toolkit), interviews, and rebuild after data loss.",
-    researchProcess:
-      "Semi-structured interviews with migrants plus documentary research; insight-to-mechanic mapping (emotional drain, sparse NPCs, fog, calorie depletion); iterative playtesting on pacing and atmosphere.",
-    featured: true,
-    layout: "wide",
-    coverImage: "/projects/endless-journey-cover.png",
-    sections: {
-      problem:
-        "Sensitive topics risk flattening into spectacle; the design challenge was to create space for empathy without prescribing a single interpretation.",
-      process:
-        "Iterative scene assembly, testing readability of environmental cues, and refining interaction timing to support contemplative play.",
-      keyInsights:
-        "Silence, distance, and indirect cues often carried more weight than explicit text. Small interactions needed clear affordances.",
-      designDevelopment:
-        "Unity scenes, basic shaders, and interaction triggers tuned through repeated playthrough notes.",
-      finalOutcome:
-        "A playable slice demonstrating direction of travel for the larger narrative arc, documented for critique.",
-      reflection:
-        "Deepened my interest in XR-adjacent interaction and how immersion changes the ethics of representation.",
-    },
-  },
-  {
     slug: "healthsync-ai",
     title: "HealthSync AI",
     tags: ["Healthcare UX", "Human-Centered AI", "Wearables", "Product Design"],
@@ -150,6 +86,102 @@ export const projects: Project[] = [
         "Documented service concept reducing anxiety and building decision confidence through structured tasks, peer environments, and continuous mentorship access.",
       reflection:
         "Financial literacy is a systems and accessibility problem shaped by anxiety and trust, support must feel approachable and sustainable.",
+    },
+  },
+  {
+    slug: "persustain-ai",
+    title: "Persustain",
+    tags: ["Explainable AI", "Backend", "Sustainability", "Firebase", "TypeScript"],
+    shortDescription:
+      "Backend MVP: Firebase pipelines, deterministic emissions logic, LLM summaries, and hardened user-scoped aggregation.",
+    summary:
+      "Built and integrated the MVP’s backend, Climatiq + OpenAI, Cloud Functions/Firestore, activity normalization, net vs avoided emissions semantics, dashboards, contributions, and aggregation fixes.",
+    overview:
+      "Deterministic totals with AI only for narratives; tightened Firestore and cache semantics for trustworthy rollups.",
+    myRole:
+      "AI/backend engineer: Cloud Functions, Firestore schemas and queries, Climatiq/OpenAI integrations, normalization, explanations, aggregation, and collaborating with frontend.",
+    researchProcess:
+      "Iterated on deterministic vs generative boundaries, emission semantics for sustainable behaviors, and user-scoped caching under multi-user loads.",
+    featured: true,
+    layout: "standard",
+    coverImage: "/projects/persustain-cover.png",
+    sections: {
+      problem:
+        "Sustainability UIs oscillate between gamified simplicity and inaccessible density; users distrust opaque metrics and cannot relate actions to system-level outcomes.",
+      process:
+        "Defined a deterministic core for all numeric carbon outputs; delegated natural-language rationales and caveats to generative models only after validation.",
+      keyInsights:
+        "Net-impact semantics needed actual, avoided, and net CO₂ so virtuous behaviors read as reductions; multi-user aggregation required strict cache/query scoping.",
+      designDevelopment:
+        "Second-gen Cloud Functions (normalizeAndExplainActivity, baseline and pattern insights, evidence summaries, goals/recommendations) plus tightened Firestore query and refresh semantics.",
+      finalOutcome:
+        "MVP with baselines, activity interpretation, dashboard narratives, contribution aggregation, scaled pipelines and honesty-first labeling of simulated surfaces.",
+      reflection:
+        "Backend schemas and aggregation semantics are inseparable from trust and emotional framing of sustainable behavior.",
+    },
+  },
+  {
+    slug: "finexa",
+    title: "Finexa",
+    coverImage: "/projects/finexa-cover.png",
+    tags: ["Product Design", "FinTech", "AI Assistant", "Figma"],
+    shortDescription:
+      "AI-powered e-wallet that simplifies digital financial planning with smart insights and an intelligent assistant.",
+    summary:
+      "Finexa is an AI-powered e-wallet, designed to simplify digital financial planning with smart insights and intelligent assistant.",
+    overview:
+      "A digital wallet offering AI-generated insights into spending habits, goal setting and tracking, simplified budget management, and smooth transactions.",
+    myRole:
+      "Product Designer: conducted user interviews, designed user flows and wireframes, created the visual system and UI components, prototyped in Figma, and led usability testing and iterations.",
+    researchProcess:
+      "User interviews with students and young professionals, competitive analysis of PayPal, Revolut, and Apple Wallet, and review of financial anxiety and cognitive load research, followed by sketches, wireframes, and iterative Figma prototyping.",
+    featured: true,
+    layout: "standard",
+    sections: {
+      problem:
+        "Users are tired of complex financial dashboards and want quick, human answers instead of charts, while needing to trust that a digital wallet is secure and transparent.",
+      process:
+        "Research combined user interviews and competitive analysis, moving through sketches and low-fidelity wireframes to an iterated, hi-fi prototype in Figma.",
+      keyInsights:
+        "Users want conversational, judgment-free AI guidance rather than dense data, and trust depends on the app feeling secure, transparent, and calm.",
+      designDevelopment:
+        "Concepts moved from card-based sketches through low-fidelity wireframes to a hi-fi prototype, refined with a softer palette, clearer category contrast, and a legible AI insight layout.",
+      finalOutcome:
+        "A fully designed hi-fi prototype featuring a conversational AI assistant, personalized spending insights, secure payments, and visual budget tracking with goal progress.",
+      reflection:
+        "Bringing structured research into a calm, conversational interface reinforced that trust in financial AI comes as much from tone and clarity as from features.",
+    },
+  },
+  {
+    slug: "the-endless-journey",
+    title: "The Endless Journey",
+    tags: ["Unity", "Narrative Design", "Environmental Storytelling", "HDRP"],
+    shortDescription:
+      "Narrative survival game: migration, emotional health systems, and atmospheric world-building in Unity HDRP.",
+    summary:
+      "A PC narrative survival game where a young refugee awakens in a symbolic world, exploration, emotional survival mechanics, and environmental storytelling replace exposition-heavy dialogue.",
+    overview:
+      "Unity 6.2 / HDRP desktop game (Sep–Dec 2025): three-act structure, emotional health and calorie systems, NPC recovery, and fog-forward environments translating migration research into play.",
+    myRole:
+      "Solo designer & developer: narrative structure, environment and systems design, Unity implementation (Cinemachine, Timeline, UI Toolkit), interviews, and rebuild after data loss.",
+    researchProcess:
+      "Semi-structured interviews with migrants plus documentary research; insight-to-mechanic mapping (emotional drain, sparse NPCs, fog, calorie depletion); iterative playtesting on pacing and atmosphere.",
+    featured: true,
+    layout: "wide",
+    coverImage: "/projects/endless-journey-cover.png",
+    sections: {
+      problem:
+        "Sensitive topics risk flattening into spectacle; the design challenge was to create space for empathy without prescribing a single interpretation.",
+      process:
+        "Iterative scene assembly, testing readability of environmental cues, and refining interaction timing to support contemplative play.",
+      keyInsights:
+        "Silence, distance, and indirect cues often carried more weight than explicit text. Small interactions needed clear affordances.",
+      designDevelopment:
+        "Unity scenes, basic shaders, and interaction triggers tuned through repeated playthrough notes.",
+      finalOutcome:
+        "A playable slice demonstrating direction of travel for the larger narrative arc, documented for critique.",
+      reflection:
+        "Deepened my interest in XR-adjacent interaction and how immersion changes the ethics of representation.",
     },
   },
 ];
