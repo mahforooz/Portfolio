@@ -5,7 +5,7 @@ import { Reveal } from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Interaction Design student at Emily Carr, HCI, immersive systems, and research.",
+    "Interaction Designer and aspiring HCI researcher at Emily Carr: human–AI interaction, XR and tangible interaction.",
 };
 
 export default function AboutPage() {
@@ -20,11 +20,9 @@ export default function AboutPage() {
             Profile
           </h1>
           <p className="layout-prose mt-8 text-sm md:text-base">
-            I&apos;m an Interaction Design student at Emily Carr University of
-            Art + Design. My work sits at the intersection of UX research,
-            immersive and interactive systems, and emerging technology, always
-            with a focus on how people experience digital products and
-            environments.
+            I&apos;m an Interaction Designer and aspiring HCI researcher,
+            completing a Bachelor of Design in Interaction Design at Emily Carr
+            University of Art + Design. I study how people think, decide and learn when interacting with AI and immersive technologies. My current research examines cognitive offloading to AI chatbots and its effect on memory, understanding and critical thinking, with the aim of designing interactions that support human thinking rather than replace it. I&apos;m also interested in XR and tangible interaction as ways to study embodied and emotional experience.
           </p>
         </Reveal>
         <Reveal className="mt-12 flex flex-wrap gap-4">

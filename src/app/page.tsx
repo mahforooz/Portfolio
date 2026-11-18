@@ -29,10 +29,7 @@ export default function HomePage() {
             className="mt-6 max-w-[65ch] text-sm leading-relaxed text-black md:text-base"
             style={{ color: "#141414" }}
           >
-            I&apos;m an Interaction Design student interested in how people
-            experience digital systems, interactive environments, and emerging
-            technologies. My work combines UX research, interaction design,
-            creative technology, and prototyping.
+            I study how people think, decide and learn when interacting with AI and immersive technologies. My current research examines cognitive offloading to AI chatbots and its effect on memory, understanding and critical thinking, with the aim of designing interactions that support human thinking rather than replace it. I&apos;m also interested in XR and tangible interaction as ways to study embodied and emotional experience.
           </p>
 
           <div className="mt-14 lg:mt-16 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(240px,300px)] lg:items-start lg:gap-x-14 xl:gap-x-20">
@@ -54,7 +51,7 @@ export default function HomePage() {
 
           <Reveal className="mt-14 border-t border-line pt-10 md:mt-16">
             <p className="text-sm font-medium uppercase tracking-wider text-[#008080]">
-              Résumé
+              CV
             </p>
             <a
               href={RESUME_HREF}
