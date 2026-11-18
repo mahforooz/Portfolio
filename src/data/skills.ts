@@ -65,7 +65,7 @@ export const skillCategories: SkillCategory[] = [
     id: "training",
     label: "Training",
     skills: [
-      "TCPS 2: CORE (research ethics)",
+      "TCPS 2: CORE (research ethics, in progress)",
       "Google UX Research",
       "CalArts UI/UX Design",
       "CalArts Graphic Design",

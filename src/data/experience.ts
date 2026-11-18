@@ -30,7 +30,7 @@ export const experienceGroups: ExperienceGroup[] = [
         highlights: [
           "Proposal: User-Adjustable Levels of AI Involvement to Sustain Human Cognitive Engagement, a “Thinking Dial” that lets users choose how much of the thinking AI does.",
           "Planned study: interviews and a one-week diary study (6–8 people), then a Wizard-of-Oz experiment (n = 32, 3 × 2 mixed design) measuring accuracy, over-reliance, retention, workload and trust.",
-          "Completed TCPS 2: CORE research ethics training.",
+          "TCPS 2: CORE research ethics training in progress.",
         ],
       },
       {
