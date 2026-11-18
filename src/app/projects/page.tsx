@@ -6,7 +6,7 @@ import { projects } from "@/data/projects";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Case studies: healthcare AI, service design, immersive narrative, sustainability, visualization.",
+    "Case studies: healthcare AI, service design, narrative game design, explainable AI and product design.",
 };
 
 export default function ProjectsPage() {
@@ -22,8 +22,8 @@ export default function ProjectsPage() {
               Projects
             </h1>
             <p className="layout-prose mt-5 text-sm md:text-base">
-              Case studies from coursework and collaborations. Replace
-              placeholders with images and artifacts when ready.
+              Case studies from coursework, research and industry
+              collaborations.
             </p>
           </Reveal>
         </header>

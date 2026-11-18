@@ -54,8 +54,8 @@ export function CinematicHero() {
       >
         <div className="layout-page max-w-content">
           <p className="max-w-xl text-base font-medium leading-relaxed text-muted md:text-lg">
-            Interaction Designer exploring HCI, immersive environments, and
-            human-centered technology.
+            Interaction Designer &amp; aspiring HCI researcher studying how
+            people think, decide and learn with AI and immersive technologies.
           </p>
 
           <h1 className="font-display mt-8 text-mega font-semibold tracking-tight text-ink md:mt-10">

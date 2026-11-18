@@ -33,9 +33,9 @@ export const projects: Project[] = [
     summary:
       "Conceptual healthcare platform turning wearable and behavioral data into emotionally supportive guidance for patients, caregivers, and clinicians, without overwhelming dashboards or clinical tone.",
     overview:
-      "Heuristic and secondary research (Apple Health, Fitbit, Oura, MyChart) informed calm-by-default principles, progressive escalation, longitudinal journey design, and a full hi-fi mobile + Watch prototype.",
+      "Interviews with 3 people living with diabetes, plus heuristic and competitive analysis of Apple Health, Fitbit, Oura and MyChart, informed calm-by-default principles, progressive escalation, longitudinal journey design, and a full hi-fi mobile + Watch prototype.",
     myRole:
-      "UX/UI designer: collaborated on research and heuristics; independently designed mobile and Apple Watch UI, AI interaction patterns, escalation flows, reporting dashboards, and the interactive prototype.",
+      "UX researcher & designer (ISM Creatives, 3-person team): interviewed users, collaborated on heuristics; independently designed mobile and Apple Watch UI, AI interaction patterns, escalation flows, reporting dashboards, and the interactive prototype.",
     researchProcess:
       "Healthcare UX, wearables, RPM, and AI explainability research; insight synthesis on emotional tone, alert fatigue, and collaborative care; iterative Figma prototyping.",
     featured: true,
@@ -45,7 +45,7 @@ export const projects: Project[] = [
       problem:
         "Chronic care apps overwhelm with alerts and dense metrics while caregivers lack day-to-day visibility, anxiety and fragmentation block preventive care.",
       process:
-        "Heuristic analysis and competitive review; journey mapping from onboarding through escalation; calm visual language and progressive disclosure of AI guidance.",
+        "User interviews, heuristic analysis and competitive review; journey mapping from onboarding through escalation; calm visual language and progressive disclosure of AI guidance.",
       keyInsights:
         "Care is emotional and collaborative; users need guidance not raw data; alert fatigue erodes trust, shaping calm interactions and contextual AI.",
       designDevelopment:
@@ -157,15 +157,15 @@ export const projects: Project[] = [
     title: "The Endless Journey",
     tags: ["Unity", "Narrative Design", "Environmental Storytelling", "HDRP"],
     shortDescription:
-      "Narrative survival game: migration, emotional health systems, and atmospheric world-building in Unity HDRP.",
+      "Narrative game on forced migration: interviews with two immigrants became mechanics, an emotional-health meter that drains with isolation and NPCs that restore it through connection.",
     summary:
       "A PC narrative survival game where a young refugee awakens in a symbolic world, exploration, emotional survival mechanics, and environmental storytelling replace exposition-heavy dialogue.",
     overview:
-      "Unity 6.2 / HDRP desktop game (Sep–Dec 2025): three-act structure, emotional health and calorie systems, NPC recovery, and fog-forward environments translating migration research into play.",
+      "Unity 6.2 / HDRP desktop game (Sep–Dec 2025): Core Design Studio III; Acts I–II built in C# (code: github.com/mahforooz/GameDesignProject); emotional health and calorie systems, NPC recovery, and fog-forward environments translating migration research into play.",
     myRole:
       "Solo designer & developer: narrative structure, environment and systems design, Unity implementation (Cinemachine, Timeline, UI Toolkit), interviews, and rebuild after data loss.",
     researchProcess:
-      "Semi-structured interviews with migrants plus documentary research; insight-to-mechanic mapping (emotional drain, sparse NPCs, fog, calorie depletion); iterative playtesting on pacing and atmosphere.",
+      "Semi-structured interviews with two immigrants plus documentary research; insight-to-mechanic mapping (emotional drain, sparse NPCs, fog, calorie depletion); iterative playtesting on pacing and atmosphere.",
     featured: true,
     layout: "wide",
     coverImage: "/projects/endless-journey-cover.png",

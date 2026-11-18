@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s, Mahtab Foroozandeh",
   },
   description:
-    "Interaction Design student exploring HCI, immersive environments, and human-centered technology.",
+    "Interaction Designer & aspiring HCI researcher studying how people think, decide and learn with AI and immersive technologies.",
 };
 
 export default function RootLayout({
